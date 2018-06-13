@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "988408542507",
+    "firebase_url": "https://pichonapp-b6413.firebaseio.com",
+    "project_id": "pichonapp-b6413",
+    "storage_bucket": "pichonapp-b6413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988408542507:android:ce7744c4f17650c5",
+        "android_client_info": {
+          "package_name": "com.PichonApp.fernando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988408542507-80quq2584au1ubqol6s6uvjvergp3qul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.PichonApp.fernando",
+            "certificate_hash": "8bd9bdc32e3679a09e16b9c9cae24e34e6834e89"
+          }
+        },
+        {
+          "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsnLd_3WQTZyRdXej_nCdHzMzoLVUVn1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988408542507:android:33eca0b803e5f59b",
+        "android_client_info": {
+          "package_name": "fernando.pichonapp.com.pichonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988408542507-ep3bjeq48vggqg8r47apvkks6v26ba2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fernando.pichonapp.com.pichonapp",
+            "certificate_hash": "8bd9bdc32e3679a09e16b9c9cae24e34e6834e89"
+          }
+        },
+        {
+          "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsnLd_3WQTZyRdXej_nCdHzMzoLVUVn1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988408542507-sfgddd3u5ehd5mk372r0fcnf766s5h7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

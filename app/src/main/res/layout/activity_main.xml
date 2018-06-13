@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fernando.pichonapp.com.pichonapp.MainActivity">
+    <include
+        layout="@layout/app_toolbar"
+        android:id="@+id/app_toolbar"/>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/app_toolbar">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Iniciar Sesión"
+            android:textAlignment="center"
+            android:textSize="30sp"
+
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="98dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Password"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="login"
+            android:text="Ingresar"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="registrar"
+            android:text="Registrar"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="231dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
